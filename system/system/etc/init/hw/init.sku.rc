@@ -1,0 +1,30 @@
+on fs
+    setprop ro.wifi.channels 11
+    setprop ro.build.product DRG
+    setprop ro.product.brand Nokia
+    setprop ro.product.board SDM636
+    setprop ro.product.locale en-GB
+    setprop persist.dsds.enabled true
+    setprop ro.product.model.num 00WW
+    setprop ro.product.name Dragon_00WW
+    setprop ro.product.device DRG_sprout
+    setprop persist.anr.block_long_time 3
+    setprop ro.config.dbgcfgtool_config 2
+    setprop persist.anr.block_short_time 1
+    setprop ro.com.android.mobiledata true
+    setprop persist.anr.allow_dump_number 1
+    setprop ro.com.android.dataroaming false
+    setprop ro.product.model.display TA-1103
+    setprop ro.product.model "Nokia 6.1 Plus"
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.product.nickname "Nokia 6.1 Plus"
+    setprop ro.com.google.clientidbase android-hmd-rev2
+on post-fs
+    setprop dalvik.vm.dex2oat-threads 4
+    setprop persist.sys.security_enable false
+    setprop persist.sys.strict_op_enable false
+    setprop vendor.mm.enable.qcom_parser 13631230
+    setprop media.settings.xml "product/etc/media_profiles_vendor.xml"
+on fs
+	setprop ro.build.fingerprint Nokia/Dragon_00WW/DRG_sprout:9/PPR1.180610.011/00WW_3_25B:user/release-keys
+	setprop ro.build.description "Dragon_00WW-user 9 PPR1.180610.011 00WW_3_25B release-keys"

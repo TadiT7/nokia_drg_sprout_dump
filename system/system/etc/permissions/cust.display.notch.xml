@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="cust.display.notch"/>
+    <packages>
+        <full_screen_pkg>
+            <package>
+                <pname>com.tencent.mm</pname>
+            </package>
+            <package>
+                <pname>com.tencent.tim</pname>
+            </package>
+            <package>
+                <pname>com.tencent.mobileqq</pname>
+            </package>
+            <package>
+                <pname>com.baidu.tieba</pname>
+            </package>
+            <package>
+                <pname>com.android.browser</pname>
+            </package>
+            <package>
+                <pname>cn.wps.moffice_eng</pname>
+            </package>
+            <package>
+                <pname>com.mt.mtxx.mtxx</pname>
+            </package>
+        </full_screen_pkg>
+
+        <no_full_screen_pkg>
+            <package>
+                <pname>com.google.android.apps.tachyon</pname>
+            </package>
+            <package>
+                <pname>com.google.android.apps.photos</pname>
+            </package>
+            <package>
+                <pname>com.tools.alt</pname>
+            </package>
+			<package>
+                <pname>com.nbc.android.screenrecord</pname>
+            </package>
+        </no_full_screen_pkg>
+
+        <horizontal_full_screen_pkg>
+            <package>
+                <pname>com.youku.phone</pname>
+            </package>
+            <package>
+                <pname>tv.danmaku.bili</pname>
+            </package>
+        </horizontal_full_screen_pkg>
+    </packages>
+
+    <systemui_res>
+        <dimen name="zzz_notch_qs_header_system_icons_area_line_height">32dp</dimen>
+        <dimen name="zzz_notch_qs_header_system_icons_area_height">64dp</dimen>
+
+        <dimen name="zzz_notch_status_bar_left_width">338px</dimen>
+        <dimen name="zzz_notch_status_bar_right_width">330px</dimen>
+
+        <dimen name="zzz_notch_more_icon_overlay_width">7px</dimen>
+        <dimen name="zzz_notch_keyguard_status_bar_left_width">322px</dimen>
+    </systemui_res>
+
+</permissions>
+

@@ -1,0 +1,4 @@
+on fs
+    setprop ro.com.google.acsa true
+    setprop ro.product.first_api_level 27
+    setprop ro.camera.shuttersound.skuid 600ID

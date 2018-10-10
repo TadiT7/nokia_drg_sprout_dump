@@ -1,0 +1,8 @@
+on fs
+    setprop ro.product.device DRG
+    setprop ro.product.locale ru-RU
+    setprop ro.product.name Dragon_00RU
+    setprop ro.com.google.clientidbase android-hmd
+on fs
+	setprop ro.build.fingerprint Nokia/Dragon_00RU/DRG:9/PPR1.180610.011/00WW_3_25B:user/release-keys
+	setprop ro.build.description "Dragon_00RU-user 9 PPR1.180610.011 00WW_3_25B release-keys"

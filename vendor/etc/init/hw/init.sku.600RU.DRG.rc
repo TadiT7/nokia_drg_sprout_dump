@@ -1,0 +1,2 @@
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/Dragon_00RU/DRG:9/PPR1.180610.011/00WW_3_25B:user/release-keys

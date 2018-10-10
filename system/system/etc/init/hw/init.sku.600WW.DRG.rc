@@ -1,0 +1,6 @@
+on fs
+    setprop ro.product.model.display TA-1099
+on fs
+    setprop ro.com.google.acsa true
+    setprop ro.product.first_api_level 27
+
